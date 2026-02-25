@@ -1,0 +1,22 @@
+ ocean= script.parent
+       local function kill otherpart
+ if otherpart then
+       otherpart.parent=part.parent
+part.parent= otherpart.parent:wait for first child("humanoid")
+ if humanoid then
+    otherpart.touched:connect(kill other part)
+ else
+    humanoid.position+vector3.new(x,y,z)
+             x.value=67
+             y.value=67
+             z.value=67
+ if kill other part then
+    humanoid.health=0
+    humanoid.position+vector3.new(x,y,z)
+             x.value=0
+             y.value=0
+             z.value=0
+end
+   end
+otherpart.touched:connect(kill other part)
+
